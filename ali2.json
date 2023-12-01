@@ -13,6 +13,13 @@
       "filterable": 1,
       "ext": "./lib/douban.js"
     },
+	{
+	  "key": "爱奇异",
+	  "name": "🚛爱奇艺(官)",
+	  "type": 3,
+	  "api": "./lib/drpy2.min.js",
+	  "ext": "./lib/aiqiyi.js"
+	},
     {
       "key": "csp_KungFu404",
       "name": "💠┃阿里┃设置",
