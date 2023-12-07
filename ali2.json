@@ -263,7 +263,7 @@
       "filterable": 1,
       "ext": "./lib/changzhang.json"
 	},
-  {
+  	{
       "key": "Czsapp",
       "name": "📔厂长┃直连",
       "type": 3,
@@ -271,11 +271,11 @@
       "playerType": 2,
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 1,
+      //"changeable": 1,
+      "filterable": 1,
       "ext": "https://czz9.com/"
 	},
-
-    {
+	{
       "key": "zy_新浪",
       "name": "🏄🏻┃新浪┃资源",
       "type": 1,
