@@ -263,7 +263,7 @@
       "filterable": 1,
       "ext": "./lib/changzhang.json"
 	},
-  	{
+  {
       "key": "Czsapp",
       "name": "📔厂长┃直连",
       "type": 3,
@@ -271,11 +271,11 @@
       "playerType": 2,
       "searchable": 1,
       "quickSearch": 1,
-      //"changeable": 1,
-      "filterable": 1,
+      "changeable": 1,
       "ext": "https://czz9.com/"
 	},
-	{
+
+    {
       "key": "zy_新浪",
       "name": "🏄🏻┃新浪┃资源",
       "type": 1,
@@ -474,110 +474,79 @@
     }
   ],
   "parses": [
+	{
+	  "name": "解析聚合",
+	  "type": 3,
+	  "url": "Demo"
+	},
+	{
+	  "name": "Web聚合",
+	  "type": 3,
+	  "url": "Web"
+	},
+	{
+	  "name": "并发",
+	  "type": 2,
+	  "url": "Parallel"
+	},
+	{
+	  "name": "轮询",
+	  "type": 2,
+	  "url": "Sequence"
+	},
+	{
+	  "name": "小鱼解析",
+	  "type": 1,
+	  "url": "http://json.84jia.com/home/api?type=ys&uid=335253&key=demprsyzBMQRVY0234&url=",
+	  "ext": {
+	  	"flag": [
+	  		"qq",
+	  		"腾讯",
+	  		"qiyi",
+	  		"爱奇艺",
+	  		"奇艺",
+	  		"youku",
+	  		"优酷",
+	  		"tucheng",
+	  		"sohu",
+	  		"搜狐",
+	  		"letv",
+	  		"乐视",
+	  		"mgtv",
+	  		"芒果",
+	  		"tnmb",
+	  		"seven",
+	  		"yzm",
+	  		"aliyun",
+	  		"RJuMao",
+	  		"bilibili",
+	  		"1905",
+	  		"xinvip",
+	  		"XAL",
+	  		"qiqi",
+	  		"XALS",
+	  		"YuMi-vip"
+	  	]
+		}
+	},
+	{
+	  "name": "夜幕解析",
+	  "type": 0,
+	  "url": "https://www.yemu.xyz/?url=",
+	  "ext": {
+	  	"flag": ["qq", "腾讯", "qiyi", "爱奇艺", "奇艺", "youku", "优酷", "mgtv", "芒果", "letv", "乐视", "pptv", "PPTV", "sohu", "bilibili", "哔哩哔哩", "哔哩"],"header":{"User-Agent":"okhttp/4.1.0"}
+		}    
+	},
     {
-      "name": "解析聚合",
-      "type": 3,
-      "url": "Demo"
-    },
-    {
-      "name": "并发",
-      "type": 2,
-      "url": "Parallel"
-    },
-    {
-      "name": "轮询",
-      "type": 2,
-      "url": "Sequence"
-    },
-    {
-      "name": "自动解析",
-      "type": 1,
-      "url": "https://api.tyun77.cn/api.php/provide/parseDicturl?url=",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "qiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "优酷",
-          "sohu",
-          "搜狐",
-          "letv",
-          "乐视",
-          "mgtv",
-          "芒果",
-          "imgo",
-          "rx",
-          "ltnb",
-          "bilibili",
-          "1905",
-          "xigua"
-        ]
-      }
-    },
-    {
-      "name": "手动解析",
-      "type": 1,
-      "url": "https://www.playm3u8.cn/jiexi.php?url=",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "qiyi",
-          "iqiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "优酷",
-          "mgtv",
-          "芒果",
-          "letv",
-          "乐视",
-          "pptv",
-          "PPTV",
-          "sohu",
-          "bilibili",
-          "哔哩哔哩",
-          "哔哩"
-        ]
-      }
-    },
-    {
-      "name": "1号线",
-      "type": 0,
-      "url": "https://vip.lianfaka.com/vip/?url=",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "qiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "优酷",
-          "mgtv",
-          "芒果",
-          "letv",
-          "乐视",
-          "pptv",
-          "PPTV",
-          "sohu",
-          "bilibili",
-          "哔哩哔哩",
-          "哔哩"
-        ],
-        "header": {
-          "User-Agent": "okhttp/4.1.0"
-        }
-      }
-    },
-    {
-      "name": "2号线",
+      "name": "精选1",
       "type": 0,
       "url": "https://jx.777jiexi.com/player/?url="
     },
+	{
+	  "name": "精选2",
+	  "type": 0,
+	  "url": "https://jx.jsonplayer.com/player/?url="
+	},
     {
       "name": "3号线",
       "type": 0,
@@ -586,87 +555,15 @@
     {
       "name": "4号线",
       "type": 0,
-      "url": "https://www.pouyun.com/?url="
+      "url": "https://www.pangujiexi.com/pangu/?url="
     },
     {
       "name": "5号线",
       "type": 0,
-      "url": "https://api.jiexi.la/?url="
-    },
-    {
-      "name": "6号线",
-      "type": 0,
-      "url": "https://www.pangujiexi.com/pangu/?url="
-    },
-    {
-      "name": "7号线",
-      "type": 0,
-      "url": "https://parse.mw0.cc/?url="
-    },
-    {
-      "name": "8号线",
-      "type": 0,
-      "url": "https://jx.iztyy.com/svip/?url="
-    },
-    {
-      "name": "9号线",
-      "type": 0,
-      "url": "https://jx.ppflv.com/?url="
-    },
-    {
-      "name": "10号线",
-      "type": 0,
       "url": "https://jx.m3u8.tv/jiexi/?url="
     },
     {
-      "name": "11号线",
-      "type": 0,
-      "url": "https://jx.xyflv.com/?url="
-    },
-    {
-      "name": "12号线",
-      "type": 0,
-      "url": "https://jx.jsonplayer.com/player/?url="
-    },
-    {
-      "name": "13号线",
-      "type": 0,
-      "url": "https://jx.bozrc.com:4433/player/?url="
-    },
-    {
-      "name": "14号线",
-      "type": 0,
-      "url": "https://jx.parwix.com:4433/player/analysis.php?v=",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "qiyi",
-          "iqiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "优酷",
-          "mgtv",
-          "芒果",
-          "letv",
-          "乐视",
-          "pptv",
-          "PPTV",
-          "sohu",
-          "bilibili",
-          "哔哩哔哩",
-          "哔哩"
-        ]
-      }
-    },
-    {
-      "name": "15号线",
-      "type": 0,
-      "url": "https://www.nxflv.com/?url="
-    },
-    {
-      "name": "16号线",
+      "name": "6号线",
       "type": 0,
       "url": "https://www.yemu.xyz/?url=",
       "ext": {
@@ -693,36 +590,7 @@
       }
     },
     {
-      "name": "17号线",
-      "type": 0,
-      "url": "https://jx.zhanlangbu.com/?url=",
-      "ext": {
-        "header": {
-          "User-Agent": "okhttp/4.1.0"
-        },
-        "flag": [
-          "qq",
-          "腾讯",
-          "qiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "优酷",
-          "mgtv",
-          "芒果",
-          "letv",
-          "乐视",
-          "pptv",
-          "PPTV",
-          "sohu",
-          "bilibili",
-          "哔哩哔哩",
-          "哔哩"
-        ]
-      }
-    },
-    {
-      "name": "18号线",
+      "name": "7号线",
       "type": 0,
       "url": "https://jx.m3u8.pw/?url="
     }
