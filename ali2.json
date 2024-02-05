@@ -514,7 +514,14 @@
       "type": 2,
       "url": "Sequence"
     },
-    {"name":"测试","type":1,"url":"http://api.lldyy.net/svip/?url="},   
+    {"name":"测试666","type":1,"url":"http://bd.jx.cn/?url="},
+    {"name":"测试777","type":1,"url":"http://api.jiexi.la/?url="}, 
+    {"name":"测试888","type":1,"url":"http://vip.bljiex.com/?v="}, 
+    {"name":"测试999","type":1,"url":"https://jx.playerjy.com/?url="}, 
+    {"name":"测试000","type":1,"url":"http://www.8090g.cn/?url="}, 
+    {"name":"测试111","type":1,"url":"http://www.mtosz.com/m3u8.php?url="}, 
+    {"name":"测试222","type":1,"url":"http://api.lldyy.net/vip/?url="}, 
+    {"name":"测试333","type":1,"url":"http://www.ckplayer.vip/jiexi/?url="}, 
     {"name":"全看解析","type":1,"url":"https://jx.quankan.app/?url="},   
     {
       "name": "夜幕解析",
@@ -566,10 +573,8 @@
 //    {
 //      "name": "小鱼解析",
 //      "type": 0,
-//      //"url": "http://json.84jia.com/home/api?type=ys&uid=335253&key=demprsyzBMQRVY0234&url=",
-//      "ext": {
-//        "flag": ["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","tucheng","sohu","搜狐","letv","乐视","mgtv","芒果","tnmb","seven","yzm","aliyun","RJuMao","bilibili","1905","xinvip","XAL","qiqi","XALS","YuMi-vip"]
-//      }
+//      "url": "http://json.84jia.com/home/api?type=ys&uid=335253&key=demprsyzBMQRVY0234&url=",
+//      "ext": {"flag": ["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","tucheng","sohu","搜狐","letv","乐视","mgtv","芒果","tnmb","seven","yzm","aliyun","RJuMao","bilibili","1905","xinvip","XAL","qiqi","XALS","YuMi-vip"]}
 //    },
     {"name":"云解析","type":0,"url":"https://jx.yparse.com/index.php?url="},
     {"name":"咸鱼解析","type":0,"url":"https://jx.xyflv.com/?url="}
