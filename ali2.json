@@ -514,7 +514,6 @@
       "type": 2,
       "url": "Sequence"
     },
-    {"name":"测试111","type":0,"url":"https://jx.playerjy.com/?url="},
     {"name":"全看解析","type":0,"url":"https://jx.quankan.app/?url="},  
     {
       "name": "夜幕解析",
@@ -527,7 +526,13 @@
     },
     {"name": "盘古解析","type": 0,"url": "https://www.pangujiexi.com/pangu/?url="},
     {"name":"冰豆解析","type":0,"url":"http://bd.jx.cn/?url="},
-    {"name":"CK解析","type":0,"url":"http://www.ckplayer.vip/jiexi/?url="}, 
+    {"name":"CK解析","type":0,"url":"http://www.ckplayer.vip/jiexi/?url="},
+    {
+      "name": "小鱼解析",
+      "type": 1,
+      "url": "http://json.84jia.com/home/api?type=ys&uid=335253&key=demprsyzBMQRVY0234&url=",
+      "ext": {"flag": ["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","tucheng","sohu","搜狐","letv","乐视","mgtv","芒果","tnmb","seven","yzm","aliyun","RJuMao","bilibili","1905","xinvip","XAL","qiqi","XALS","YuMi-vip"]}
+    },
     {
       "name": "1号线",
       "type": 0,
@@ -560,12 +565,6 @@
       "name": "精选2",
       "type": 0,
       "url": "https://jx.jsonplayer.com/player/?url="
-    },
-    {
-      "name": "小鱼解析",
-      "type": 0,
-      "url": "http://json.84jia.com/home/api?type=ys&uid=335253&key=demprsyzBMQRVY0234&url=",
-      "ext": {"flag": ["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","tucheng","sohu","搜狐","letv","乐视","mgtv","芒果","tnmb","seven","yzm","aliyun","RJuMao","bilibili","1905","xinvip","XAL","qiqi","XALS","YuMi-vip"]}
     },
     {"name":"云解析","type":0,"url":"https://jx.yparse.com/index.php?url="},
     {"name":"咸鱼解析","type":0,"url":"https://jx.xyflv.com/?url="}
